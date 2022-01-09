@@ -8,7 +8,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=pi
-ExecStart=/usr/bin/python /opt/raspfan/showTemp.py
+ExecStart=/bin/python3 /opt/raspfan/showTemp.py
 
 [Install]
 WantedBy=multi-user.target
